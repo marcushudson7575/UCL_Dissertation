@@ -1,0 +1,47 @@
+{
+  "runs": [
+    {
+      "model": "Baseline RF (Section 13)",
+      "visitors": 7925,
+      "converters": 527,
+      "test AUC": 0.5759237085186453,
+      "test AP": 0.07964908717936578,
+      "CV AUC": 0.5599533588579476,
+      "CV AUC sd": 0.01899552389928494,
+      "CV AP": 0.08541786023205272
+    },
+    {
+      "model": "Run 1 \u2014 full (acquisition + pre-form behaviour)",
+      "visitors": 7925,
+      "converters": 527,
+      "test AUC": 0.9362356026912989,
+      "test AP": 0.5957525717752276,
+      "CV AUC": 0.9255082992923324,
+      "CV AUC sd": 0.012395634837463672,
+      "CV AP": 0.5624841473654442
+    },
+    {
+      "model": "Run 2 \u2014 landing info hidden",
+      "visitors": 7925,
+      "converters": 527,
+      "test AUC": 0.9346533242102862,
+      "test AP": 0.592911120246428,
+      "CV AUC": 0.922599911316816,
+      "CV AUC sd": 0.012301187985681528,
+      "CV AP": 0.5450024265970864
+    },
+    {
+      "model": "Run 3 \u2014 direct arrivals excluded",
+      "visitors": 6821,
+      "converters": 132,
+      "test AUC": 0.8848031888390633,
+      "test AP": 0.26598090887241754,
+      "CV AUC": 0.842270022285257,
+      "CV AUC sd": 0.02919194154736224,
+      "CV AP": 0.2170321627681736
+    }
+  ],
+  "dAUC_mean": 0.35998314786750624,
+  "dAUC_lo": 0.3265156531487728,
+  "dAUC_hi": 0.39244094766210225
+}

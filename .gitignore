@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+outputs/
+
+# Raw client data (Parsewise private data — kept local, not committed)
+raw data/
+
+# IDE / tooling config
+.cursor/
+.claude/
+.jupyter-kernels/
+.tmp_ipy/
+
+# Large data exports (exceed GitHub's 100MB file limit)
+raw data/main platform export/events_master.csv
+events_master.csv
+filtered_events_org_*.csv
+notebooks/filtered_events_org_*.csv
+
+# Word temp lock files
+~$*
+
+# Dissertation document drafts / backups (kept local, out of git)
+*.backup.docx
+files/Diss/Bibliography Diss.docx
+files/Diss/Draft 2.docx
+files/Example project (slightly different mark scheme)/

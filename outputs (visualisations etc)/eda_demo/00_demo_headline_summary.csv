@@ -1,0 +1,8 @@
+Metric,Value
+Distinct visitors (distinct_id),207
+Merged visitor profiles (person_id),105
+Session rows,379
+Event rows (cleaned),"6,590"
+Event rows (raw),"8,335"
+Session date range,2026-03-04 → 2026-06-02
+Event date range,2026-03-04 → 2026-06-02

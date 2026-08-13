@@ -1,0 +1,17 @@
+pandas>=2.0
+openpyxl>=3.1
+matplotlib>=3.8
+seaborn>=0.13
+jupyter>=1.0
+nbformat>=5.9
+scikit-learn>=1.4
+xgboost>=2.0
+shap>=0.45
+sdv>=1.12
+plotly>=5.18
+statsmodels>=0.14
+scipy>=1.12
+mlxtend>=0.23
+lifelines>=0.29
+umap-learn>=0.5
+kaleido>=0.2

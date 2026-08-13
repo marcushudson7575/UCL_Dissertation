@@ -1,0 +1,10 @@
+Metric,Value
+Legitimate users (non-null org_id),108
+Distinct organisations,81
+Session rows,"2,514"
+Event rows,"138,841"
+Distinct session users,106
+Distinct event users,106
+Session date range,2025-07-14 → 2026-06-10
+Signup date range,2025-07-14 → 2026-06-09
+Event date range,2025-07-14 → 2026-06-10
